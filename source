@@ -1,6 +1,6 @@
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-local MainUI = UILibrary.Load("KixerHub")
+local MainUI = UILibrary.Load("SNooBeHub")
 local FirstPage = MainUI.AddPage("My Scripts")
 
 local FirstLabel = FirstPage.AddLabel("Hats")
