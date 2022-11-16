@@ -180,13 +180,13 @@ game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:Invoke
     wait(.4)
 
     local args = {
-        [1] = ";hat me 4911305457"
+        [1] = ";hat me 20011897"
     }
 game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
     wait(1)
     
         local args = {
-        [1] = ";hat me 4822592866"
+        [1] = ";hat me 12548563"
     }
 game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
     wait(1)
@@ -611,8 +611,8 @@ local Character = Player.Character
 game.RunService.Heartbeat:Connect(function()
 Character["Pal Hair"].Handle.Velocity = jit
 Character["Hat1"].Handle.Velocity = jit
-Character["Uranus"].Handle.Velocity = jit
-Character["MarsPet"].Handle.Velocity = jit
+Character["Space Cop"].Handle.Velocity = jit
+Character["SpaceHelmetB"].Handle.Velocity = jit
 Character["LongHairHeadBand Black"].Handle.Velocity = jit
 Character["LavanderHair"].Handle.Velocity = jit
 Character["Pink Hair"].Handle.Velocity = jit
@@ -667,8 +667,8 @@ end
 
 local Hats = {palm   = Character:WaitForChild("Pal Hair"),
              point1   = Character:WaitForChild("Hat1"),
-             point2   = Character:WaitForChild("Uranus"),
-             middle1   = Character:WaitForChild("MarsPet"),
+             point2   = Character:WaitForChild("Space Cop"),
+             middle1   = Character:WaitForChild("SpaceHelmetB"),
              middle2   = Character:WaitForChild("LongHairHeadBand Black"),
              ring1   = Character:WaitForChild("LavanderHair"),
              ring2   = Character:WaitForChild("Pink Hair"),
